@@ -9,7 +9,7 @@
 	<author email="victorcostadev@gmail.com" href="http://victorcosta.uphero.com">
 		Victor Costa
 	</author>
-	<preference name="phonegap-version" value="3.3.0" />
+	<preference name="phonegap-version" value="3.6.3" />
 	<preference name="Orientation" value="portrait" />
 	<icon gap:platform="android" gap:qualifier="ldpi" src="assets/img/icon/android/icon-36-ldpi.png" />
 	<icon gap:platform="android" gap:qualifier="mdpi" src="assets/img/icon/android/icon-48-mdpi.png" />

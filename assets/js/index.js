@@ -1,5 +1,5 @@
 document.addEventListener('deviceready', onDeviceReady, true);
-document.addEventListener("offline", onOffLine, true);
+document.addEventListener("offline", onOffLine, false);
 
 function onDeviceReady() {
 	// var ref = window.open(encodeURI('http://elogold-acceptance.herokuapp.com/users/sign_in'), '_self', 'location=no');

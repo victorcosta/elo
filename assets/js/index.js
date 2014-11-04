@@ -1,8 +1,9 @@
 document.addEventListener('deviceready', onDeviceReady, true);
-document.addEventListener("offline", onOffLine, false);
+document.addEventListener("offline", onOffLine, true);
 
 function onDeviceReady() {
-	var ref = window.open(encodeURI('http://elogold-acceptance.herokuapp.com/users/sign_in'), '_self', 'location=no');
+	// var ref = window.open(encodeURI('http://elogold-acceptance.herokuapp.com/users/sign_in'), '_self', 'location=no');
+	var ref = window.open(encodeURI('https://office.elogoldbrasil.com.br/users/sign_in'), '_self', 'location=no');
 }
 function onOffLine() {
 	navigator.notification.vibrate(100);
